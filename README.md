@@ -18,14 +18,27 @@ inclusion limits, and regulatory status.
 
 ## Quick start
 
+You do not need to know Git or GitHub. Install [R](https://cran.r-project.org/)
+(and optionally [RStudio](https://posit.co/download/rstudio-desktop/)), open the
+R console, and paste these two commands:
+
 ```r
 install.packages(c("shiny", "reactable", "shinyWidgets", "shinycssloaders",
                    "readxl"))
-shiny::runApp()
+shiny::runGitHub("feed-similarity", "YoungjunNa")
 ```
 
-The app starts immediately with the bundled demonstration datasets.
-A notice in the sidebar shows which dataset is in use.
+The first command installs the required packages (needed only once).
+The second command downloads this repository and opens the app in your
+web browser. The app starts immediately with the bundled demonstration
+datasets. A notice in the sidebar shows which dataset is in use.
+
+If you have downloaded the repository manually (e.g., with the green
+"Code > Download ZIP" button), unzip it and run:
+
+```r
+shiny::runApp("path/to/feed-similarity")
+```
 
 ## Data
 
