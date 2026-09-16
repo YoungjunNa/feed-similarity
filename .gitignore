@@ -1,0 +1,17 @@
+# Original database files (not redistributable) — demo files are tracked
+data/feedipedia_all.xlsx
+data/feedtable-all.xlsx
+
+# Local analysis and manuscript material (not part of the public app)
+scripts/
+tests/
+R/study_design.R
+
+# Analysis outputs and manuscript artifacts
+outputs/
+
+# OS / editor
+.DS_Store
+.Rproj.user/
+.Rhistory
+.RData
